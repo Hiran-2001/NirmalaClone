@@ -1,0 +1,27 @@
+.ContentBanner{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+.name{
+    color: #60a5a5;
+    font-family: "Vollkorn",serif;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+.content{
+    color: #000000;
+}
+#Btn{
+    background-color:#60a5a5;
+    color: white;
+    height: 10vh;
+    width: 38vh;
+    margin-top: 20px;
+    border-radius: 0px;
+    border: none;
+}
+#Btn:hover{
+    background-color:#7b9292;
+    color: white;
+}
