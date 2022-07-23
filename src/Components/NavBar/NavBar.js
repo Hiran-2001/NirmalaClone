@@ -8,6 +8,7 @@ import SideBar from '../SideBar/SideBar'
 import ContentBanner from '../Content&Banner/ContentBanner'
 import Updates from '../Updates/Updates'
 import Testimonials from '../Testimonials/Testimonials'
+import Gallery from '../Gallery/Gallery'
 function NavBar() {
     const [showNav, setShowNav] = useState(false);
 
@@ -44,6 +45,7 @@ function NavBar() {
             <SideBar show={showNav}  />
             <Updates/>
             <Testimonials/>
+            <Gallery/>
             
         </div>
     )

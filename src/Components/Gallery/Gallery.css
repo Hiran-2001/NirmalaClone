@@ -1,0 +1,33 @@
+.gallery{
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    /* background-color: red; */
+}
+#gallery-container{
+    display:flex; 
+    margin-left:0px; 
+    width: 100%;
+    /* background-color: blue; */
+
+
+}
+#gallery{
+    font-size: 1em;
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+}
+#gallery-line{
+    border: 1px solid black;
+    width: 50px;
+    color: black;
+    margin-left: 650px;
+    justify-content: center;
+}
+#gallery-img{
+    width: 334px;
+    height: 334px;
+    margin-left: 50px;
+    margin-top: 15px;
+    
+}
