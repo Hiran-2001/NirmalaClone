@@ -3,10 +3,10 @@ import { FaStar } from 'react-icons/fa'
 import './Testimonials.css'
 function TestimonialReviews(reviewdata) {
     return (
-        <div id='review-container' class="col-sm-4 d-flex pb-3 " >
+        <div id='review-container' className="col-sm-4 d-flex " >
 
 
-            <div id="reviewscard" className="card text-center" >
+            <div id="reviewscard" >
 
                 <div id='star'>
                     {[...Array(reviewdata.star)].map((stars) => {
@@ -17,12 +17,27 @@ function TestimonialReviews(reviewdata) {
                     }
                 </div>
                 <div id='time' class="p-3">{reviewdata.time}</div>
-                <div class="d-flex flex-column mb-3">
-                    <div id='reviews' class="p-2">{reviewdata.review}</div>
-                    <div class="p-2">{reviewdata.by}</div>
+                <div id='rev-by' class="d-flex flex-column mb-3">
+                    <div id='reviews' >{reviewdata.review}</div>
+                    <div id='by'>{reviewdata.by}</div>
                 </div>
             </div>
+           
         </div>
+
+
+        //<div class="col-sm-3 d-flex pb-3 ">
+        //<div className="card text-center " style={{ width: "18rem" }}>
+
+        // <div className="card-body">
+        //<h5 className="card-title">gfdgd</h5>
+        // <p className="card-text">afsdf</p>
+
+
+        //</div>
+        //</div>
+        // </div>
+
     )
 }
 export default TestimonialReviews

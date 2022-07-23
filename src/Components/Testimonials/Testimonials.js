@@ -11,7 +11,7 @@ function Testimonials() {
                 <h6 className='testimonials'>TESTIMONIALS</h6>
             </div>
 
-            <div id='review-container' class="col-md-4 d-flex pb-3 ">
+            <div id='review-container' className='card-deck' >
                 {
                     data.map((reviews) => (
 
@@ -19,7 +19,18 @@ function Testimonials() {
                     ))
                 }
             </div>
+            <div className="review-more">
 
+                <div className='write-review-div'>
+                    <h6 className='write-review'>WRITE A REVIEW</h6>
+                    <hr className='write-line' />
+                </div>
+                <div className='read-more-div'>
+                    <h6 className='read-more'>READ MORE</h6>
+                    <hr className='read-line' />
+                </div>
+
+            </div>
         </div>
     )
 }

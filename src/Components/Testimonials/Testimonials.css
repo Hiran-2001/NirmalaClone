@@ -42,37 +42,97 @@
     flex-direction: row;
     padding-left: 10px;
 }
-
-#review-container {
-    background-color: orange;
-    width: 1400px;
-    display: flex;
-    flex-direction: row;
-    height: 600px;
-
+#review-container{
+   margin-top: 30px;
+    width: 100%;
+    /* background-color: orange; */
 }
-
 #reviewscard {
-    background-color: green;
-    width: 350px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 30px;
+    width: 280px;
+    height: 300px;
+    /* background-color: yellow; */
 }
 
 #star {
-    background-color: rgb(218, 10, 10);
+    padding-top: 14px;
+    padding-right: 70px;
     width: 150px;
     height: 50px;
+    /* background-color: blue; */
+}
+#star-icon{
+    color: rgb(255, 196, 0);
+    width: 15px;
 }
 
 #time {
-    background-color: blue;
     height: 50px;
-    width: 200px;
+    width: 130px;
     position: relative;
     left: 150px;
     bottom: 50px;
+    text-align: start;
+    /* background-color: red; */
 }
+#reviews{
+    /* background-color: green; */
+    text-align: start;
+    position: relative;
+    bottom: 30px;
+}
+#by{
+    /* background-color: violet; */
+  text-align: start;
+  position: relative;
+  bottom: 10px;
+  color: #60a5a5;
+}
+.review-more{
+    /* background-color: brown; */
+    display: flex;
+    padding-left: 500px;
+   position: relative;
+   bottom: 30px;
+}
+.write-review-div{
+    /* background-color: green; */
+    width: 190px;
+    color: #60a5a5;
+   
+}
+.write-review{
+    font-family: "Karla",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+.write-line{
+    width: 120px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 7px;
+    border: 1px solid #60a5a5;
+}
+.read-more-div{
+    /* background-color: red; */
+    width: 100px;
+    color: #60a5a5;
+    font-family: "Karla",sans-serif;
 
-#card {
-    width: 550px;
-    height: 250px;
+}
+.read-more{
+    font-family: "Karla",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.read-line{
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 0px;
+    border: 1px solid #60a5a5;
 }
