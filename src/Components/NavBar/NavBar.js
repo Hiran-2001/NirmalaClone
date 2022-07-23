@@ -7,6 +7,7 @@ import { ExternalLink } from 'react-external-link';
 import SideBar from '../SideBar/SideBar'
 import ContentBanner from '../Content&Banner/ContentBanner'
 import Updates from '../Updates/Updates'
+import Testimonials from '../Testimonials/Testimonials'
 function NavBar() {
     const [showNav, setShowNav] = useState(false);
 
@@ -42,6 +43,7 @@ function NavBar() {
             <ContentBanner/>
             <SideBar show={showNav}  />
             <Updates/>
+            <Testimonials/>
             
         </div>
     )

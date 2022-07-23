@@ -1,0 +1,78 @@
+.testimonialsdiv {
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.testimonialsHeading {
+    background-color: rgb(255, 255, 255);
+}
+
+.Testimonials-line {
+    border: 1px solid black;
+    width: 50px;
+    color: black;
+    margin-left: 650px;
+    justify-content: center;
+}
+
+.testimonials {
+    font-size: 1em;
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+
+    display: inline;
+    width: 500px;
+}
+
+.review-card {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+#review-container {
+    background-color: orange;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+
+}
+
+#reviewscard {
+    background-color: green;
+    width: 350px;
+}
+
+#star {
+    background-color: rgb(218, 10, 10);
+    width: 150px;
+    height: 50px;
+}
+
+#time {
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+
+#card {
+    width: 550px;
+    height: 250px;
+}

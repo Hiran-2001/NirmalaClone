@@ -3,6 +3,8 @@
     margin-top: 830px;
     margin-left: 640px;
     align-items: center;
+    z-index: 1;
+    
 }
 
 .line {
@@ -16,29 +18,140 @@
     font-size: 1em;
     font-family: "Vollkorn", serif;
     font-weight: 700;
-    margin-right: 550px;
+    margin-right: 590px;
 }
 
 .updateimg {
-    height: 350px;
-    width: 350px;
+    height: 330px;
+    width: 330px;
+    margin-right: 20px;
 }
 
 #sections {
     width: 1300px;
-    height: 1000px;
+    height: 1250px;
     padding: 50px;
-    background-color: red;
+    /*background-color: red;*/
     justify-content: space-around;
 }
+
+
 .sectioncontainer{
     display: flex;
-    background-color: green;
+    /*background-color: green;*/
     width: 100%;
+    padding-left: 100px;
+}
 
+
+.crashcoursedate{
+    color: #60a5a5;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+
+
+.admissiontitle{
+    font-family: "Karla",sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    margin: 0 0 18px;
+    word-wrap: break-word;
+    text-align: start;
+    margin-top: 10px;
+}
+
+#book{
+    font-family: "Karla",sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    color: #60a5a5;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 30px;
+}
+#bookhr{
+    margin-top: -4px;
+    width: 40px;
+    border: 1px solid  #60a5a5;
+}
+.call{
+    font-family: "Karla",sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    color: #60a5a5;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 30px;
+}
+#callhr{
+    margin-top: -4px;
+    width:75px;
+    border: 1px solid  #60a5a5;;
+}
+.calltitle{
+    font-family: "Karla",sans-serif;
+    font-size: .95em;
+    font-weight: 400;
+    margin: 0 0 18px;
+    word-wrap: break-word;
+    text-align: start;
+    margin-top: 10px;
+    
+    
+
+}
+.title{
+    font-family: "Karla",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 0 18px;
+    word-wrap: break-word;
+    text-align: start;
+    margin-top: 40px;
+}
+.date{
+    color: #60a5a5;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: normal;
 }
 .nursingcourse{
     margin-top: 500px;
     position: relative;
-    right: 1000px;
+    top: 90px;
+    right: 1050px;
+   
+}
+.nursecoursetitle{
+    font-family: "Karla",sans-serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    margin: 0 0 18px;
+    word-wrap: break-word;
+    text-align: start;
+    margin-top: 40px;
+}
+.nursecoursedate{
+    color: #60a5a5;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.nursecoursedetail{
+    font-family: "Karla",sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    margin: 0 0 18px;
+    word-wrap: break-word;
+    text-align: start;
+    margin-top: 40px;
 }

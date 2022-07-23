@@ -2,7 +2,7 @@
     margin: 0px;
     position: relative;
     height: 50px;
-    
+    z-index: 1;
 }
 #menubtn{
     height: 25px;
