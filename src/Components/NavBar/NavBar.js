@@ -6,6 +6,7 @@ import { MdPhone, MdDirections } from 'react-icons/md'
 import { ExternalLink } from 'react-external-link';
 import SideBar from '../SideBar/SideBar'
 import ContentBanner from '../Content&Banner/ContentBanner'
+import Updates from '../Updates/Updates'
 function NavBar() {
     const [showNav, setShowNav] = useState(false);
 
@@ -40,6 +41,8 @@ function NavBar() {
             </nav>
             <ContentBanner/>
             <SideBar show={showNav}  />
+            <Updates/>
+            
         </div>
     )
 }

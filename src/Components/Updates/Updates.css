@@ -1,0 +1,17 @@
+.updatesdiv{
+    font-family: "Vollkorn",serif;
+    margin-top: 830px;
+    margin-left: 640px;
+    align-items: center;
+}
+.line{
+    border: 1px solid hwb(0 0% 100% / 0.966);
+    width: 50px;
+    color: black;
+    margin-left: 10px;
+}
+.update{
+    font-size: 1em;
+    font-family: "Vollkorn",serif;
+    font-weight: 700;
+}

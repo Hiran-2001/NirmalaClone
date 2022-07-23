@@ -1,8 +1,11 @@
 import React from 'react'
-
+import './Updates.css'
 function Updates() {
   return (
-    <div>Updates</div>
+    <div className='updatesdiv'>
+     <hr className='line' />
+     <h6 className='update'>UPDATES</h6>
+    </div>
   )
 }
 
