@@ -8,20 +8,33 @@
     font-family: "Vollkorn",serif;
     font-weight: bolder;
     word-spacing: 5px;
+    font-size: 55px;
+    margin-top: 22px;
+  
 }
 .content{
     color: #000000;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 25px;
+    
 }
 #Btn{
     background-color:#60a5a5;
     color: white;
-    height: 10vh;
+    height: 9vh;
+    text-transform: uppercase;
     width: 38vh;
     margin-top: 20px;
-    border-radius: 0px;
+    border-radius: 3px;
     border: none;
 }
 #Btn:hover{
     background-color:#7b9292;
     color: white;
+}
+#img{
+    height: auto;
+    margin-top: 20px;
+    width: 80%;
 }
