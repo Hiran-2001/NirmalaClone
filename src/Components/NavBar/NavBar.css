@@ -38,12 +38,15 @@
 }
 #logo{
     color: #60a5a5;
+    margin-top: 5px;
 
 }
 #getDic,#booking,#call{
     color: #60a5a5;
     margin-top: 10px;
-
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
 }
 #getDic:hover,#booking:hover,#call:hover,#logo:hover{
     color: gray;

@@ -3,7 +3,7 @@ import { ExternalLink } from 'react-external-link';
 import MapImg from '../../images/LocationImg.PNG'
 import './ContactUs.css'
 function ContactUs() {
-   const call = ()=>{ alert('Hi select a valid date')}
+   const call = ()=>{ alert('Open Pick an app ?')}
    
     return (
         <div className='contactUs-main-div'>

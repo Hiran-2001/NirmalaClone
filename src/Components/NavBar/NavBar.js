@@ -12,6 +12,7 @@ import Testimonials from '../Testimonials/Testimonials'
 import Gallery from '../Gallery/Gallery'
 import ContactUs from '../Contact-us/ContactUs'
 function NavBar() {
+   
     const [showNav, setShowNav] = useState(false);
    
     const toggleSidebar = () => {
@@ -32,7 +33,7 @@ function NavBar() {
                                 <ExternalLink id='booking' class="nav-link" href='https://www.facebook.com/nirmalaacademy' > <BiCalendarEvent className='icon' /> Make Appointment</ExternalLink>
                             </li>
                             <li class="nav-item">
-                                <a id='call' class="nav-link" href="#"> <MdPhone className='icon' />Call Now</a>
+                                <a id='call' class="nav-link" onClick={()=>{alert("Open Pick an app")}}> <MdPhone className='icon' />Call Now</a>
                             </li>
 
                             <li class="nav-item">

@@ -47,6 +47,10 @@
     margin-right:70px;
     margin-top: 15px;
     border-radius: 3px;
+
+}
+#call-now-btn:hover{
+    background-color: #696969;
 }
 #number{
     text-align: start;
@@ -70,6 +74,10 @@
     margin-right:30px;
     margin-top: 15px;
     border-radius: 3px;
+   
+}
+#address-btn:hover{
+    background-color: #696969;
 }
 #academy-address{
     text-align: start;

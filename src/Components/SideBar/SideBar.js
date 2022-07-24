@@ -7,6 +7,7 @@ function SideBar({show}) {
         <div className='sidebardiv'>
             <div className={show ? 'sidebar active' : 'sidebar'} >
                <ul>
+              
                <li class="nav-link">Updates</li> 
                 <li class="nav-link">Testimonials</li>
                 <li class="nav-link">Gallery</li>
