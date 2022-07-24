@@ -9,6 +9,7 @@ import ContentBanner from '../Content&Banner/ContentBanner'
 import Updates from '../Updates/Updates'
 import Testimonials from '../Testimonials/Testimonials'
 import Gallery from '../Gallery/Gallery'
+import ContactUs from '../Contact-us/ContactUs'
 function NavBar() {
     const [showNav, setShowNav] = useState(false);
 
@@ -46,6 +47,7 @@ function NavBar() {
             <Updates/>
             <Testimonials/>
             <Gallery/>
+            <ContactUs/>
             
         </div>
     )

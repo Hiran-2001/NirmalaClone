@@ -18,6 +18,10 @@ const images = [
     {
         id:5,
         imageUrl: "https://lh3.googleusercontent.com/p/AF1QipNOFLkMU-L6b-8DBwCnM-dLrEOSZ509gnt35nMY=w960-h960-n-o-v1"
-    }
+    },
+    {
+        id:5,
+        imageUrl: "https://lh3.googleusercontent.com/p/AF1QipNOFLkMU-L6b-8DBwCnM-dLrEOSZ509gnt35nMY=w960-h960-n-o-v1"
+    },
 ]
 export default images

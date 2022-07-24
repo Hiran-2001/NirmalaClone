@@ -1,0 +1,83 @@
+.contactUs-main-div{
+    /* background-color: red; */
+    margin-left:145px ;
+    height: 1000px;
+    
+}
+.academy-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.contact{
+    /* background-color: rgb(156, 156, 214); */
+    width: 300px;
+    
+}
+#contact-written,#address,#booking{
+    font-weight: bold;
+    font-size: 1em;
+    color: #2e2f31;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "Karla",sans-serif;
+    
+}
+#address{
+    margin-left: 80px;
+}
+#call-now-btn{
+    background-color: #60a5a5;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    height: 60px;
+    width: 170px;
+    margin-right:70px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+#number{
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: "Karla",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.address{
+    /* background-color: rgb(227, 231, 189); */
+    width: 400px;
+}
+#address-btn{
+    background-color: #60a5a5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 60px;
+    width: 220px;
+    margin-right:30px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+#academy-address{
+    text-align: start;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: "Karla",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.booking-hours{
+    /* background-color: rgb(173, 216, 219); */
+    width: 300px;
+}
+.booking-hours  li{
+    list-style: none;
+    text-align: start;
+    padding-top: 8px;
+    font-family: "Karla",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
