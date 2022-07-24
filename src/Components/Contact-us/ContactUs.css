@@ -4,6 +4,16 @@
     height: 1000px;
     
 }
+.contact-us-line{
+    width: 50px;
+    margin-left: 510px;
+    border: 1px solid black;
+}
+.contact-us{
+    font-size: 1em;
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+}
 .academy-details{
     display: flex;
     flex-direction: row;
@@ -14,7 +24,7 @@
     width: 300px;
     
 }
-#contact-written,#address,#booking{
+#contact-written,#address,#booking-hours{
     font-weight: bold;
     font-size: 1em;
     color: #2e2f31;
@@ -73,7 +83,7 @@
     /* background-color: rgb(173, 216, 219); */
     width: 300px;
 }
-.booking-hours  li{
+.booking-hours-div  li{
     list-style: none;
     text-align: start;
     padding-top: 8px;

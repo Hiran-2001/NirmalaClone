@@ -1,8 +1,9 @@
 .gallery {
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
     width: 100%;
      /* background-color: red;  */
+     top: 1px;
 
 }
 

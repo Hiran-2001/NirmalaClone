@@ -1,8 +1,9 @@
 .testimonialsdiv {
     align-items: center;
-    height: 500px;
+    height: auto;
     width: 100%;
     margin-top: 100px;
+    /* background-color: red; */
 }
 
 .testimonialsHeading {
@@ -46,6 +47,8 @@
    margin-top: 30px;
     width: 100%;
     /* background-color: orange; */
+    height: auto;
+
 }
 #reviewscard {
     margin-left: 100px;

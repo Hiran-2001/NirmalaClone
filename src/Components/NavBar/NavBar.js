@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './NavBar.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { IoMenu } from 'react-icons/io5'
 import { BiCalendarEvent } from 'react-icons/bi'
 import { MdPhone, MdDirections } from 'react-icons/md'
@@ -12,10 +13,11 @@ import Gallery from '../Gallery/Gallery'
 import ContactUs from '../Contact-us/ContactUs'
 function NavBar() {
     const [showNav, setShowNav] = useState(false);
-
+   
     const toggleSidebar = () => {
         setShowNav(!showNav)
     }
+
     return (
         <div className='navbar'>
 
@@ -42,6 +44,7 @@ function NavBar() {
                     </div>
                 </div>
             </nav>
+            
             <ContentBanner/>
             <SideBar show={showNav}  />
             <Updates/>
